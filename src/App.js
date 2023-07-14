@@ -23,6 +23,12 @@ let App = function () {
         age: "20",
         gender: "Male",
         id: 3
+      },
+      {
+        name: 'naveed',
+        age: "20",
+        gender: "Male",
+        id: 3
       }
     ]
   })
