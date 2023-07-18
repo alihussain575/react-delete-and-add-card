@@ -5,32 +5,7 @@ import AddTodo from './components/Addtodo'
 
 let App = function () {
   const [itemState, setitems] = useState({
-    items:[
-      {
-        name: 'Muees',
-        age: "25",
-        gender: "Male",
-        id: 1
-      },
-      {
-        name: 'anya',
-        age: "19",
-        gender: "Female",
-        id: 2
-      },
-      {
-        name: 'nadeem',
-        age: "20",
-        gender: "Male",
-        id: 3
-      },
-      {
-        name: 'naveed',
-        age: "20",
-        gender: "Male",
-        id: 3
-      }
-    ]
+    items:[]
   })
   const addTodo = (add)=>{
         add.id = Math.random();
