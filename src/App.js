@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Todo from "./components/todo";
-import './App.css'
-import AddTodo from './components/Addtodo'
+// import Todo from "./components/todo";
+// import './App.css'
+// import AddTodo from './components/Addtodo'
 
 let App = function () {
   const [itemState, setitems] = useState({
@@ -25,8 +25,8 @@ let App = function () {
   return (
     <div className="App">
       <h1>hello</h1>
-      <Todo DeleteTodo={deleteTodo} todoItems={itemState.items} />
-      <AddTodo addtodo={addTodo} />
+      {/* <Todo DeleteTodo={deleteTodo} todoItems={itemState.items} />
+      <AddTodo addtodo={addTodo} /> */}
     </div>
   )
 }
